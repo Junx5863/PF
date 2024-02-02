@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Escoge el carro de tus sueños, y conoce la historia detras de cada uno de ellos.">
-    <meta name="keywords" content="cars, car plaza, subscribe, dream car, car selection, porsche, Mustang, Audi">
-    <meta name="author" content="DevNicolas">
-    <meta name="robots" content="index, follow">
+    <meta
+      name="description"
+      content="Escoge el carro de tus sueños, y conoce la historia detras de cada uno de ellos."
+    />
+    <meta
+      name="keywords"
+      content="cars, car plaza, subscribe, dream car, car selection, porsche, Mustang, Audi"
+    />
+    <meta name="author" content="DevNicolas" />
+    <meta name="robots" content="index, follow" />
     <title>Home</title>
     <link rel="stylesheet" href="./style/style.css" />
   </head>
@@ -14,6 +20,7 @@
     <header>
       <nav class="navbar">
         <div class="logo">Home</div>
+        <button class="hamburger-menu">☰</button>
         <ul class="nav-links">
           <li><a href="#" class="active">Home</a></li>
           <li><a href="pages/audi_r8.html">Audi - R8</a></li>
@@ -22,6 +29,14 @@
           <li><a href="pages/form_inscrip.html">Contact </a></li>
         </ul>
       </nav>
+
+      <div class="dropdown_menu">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="pages/audi_r8.html">Audi - R8</a></li>
+        <li><a href="pages/ford_mustang.html">Ford - Mustang</a></li>
+        <li><a href="pages/porsche.html">Porsche 911 - GT3</a></li>
+        <li><a href="pages/form_inscrip.html">Contact </a></li>
+      </div>
     </header>
 
     <main>
@@ -30,12 +45,18 @@
         <div class="image-gallery">
           <div class="image-box">
             <span class="top-left-title">Audi R8</span>
-            <img src="assets/audi_photo_1.jpg" alt="Audi amarillo bajo la luz de la calle y brillando con la luz de la luna." />
+            <img
+              src="assets/audi_photo_1.jpg"
+              alt="Audi amarillo bajo la luz de la calle y brillando con la luz de la luna."
+            />
             <span class="bottom-right-title">Detalles</span>
           </div>
           <div class="image-box">
             <span class="top-left-title">Ford - Mustang</span>
-            <img src="assets/Mustang.jpg" alt="Mustang bajo el sol, mostrando la pintura. "/>
+            <img
+              src="assets/Mustang.jpg"
+              alt="Mustang bajo el sol, mostrando la pintura. "
+            />
             <span class="bottom-right-title">Detalles</span>
           </div>
           <div class="image-box">
@@ -106,21 +127,25 @@
     </div>
 
     <footer class="site-footer">
-        <div class="footer-content">
-            <div class="subscribe-section">
-                <p>Suscribete a nuestros ultimos Post.</p>
-                <input type="email" placeholder="Email" aria-label="Email for newsletter subscription">
-                <button type="submit">SUBSCRIBE</button>
-            </div>
-            
+      <div class="footer-content">
+        <div class="subscribe-section">
+          <p>Suscribete a nuestros ultimos Post.</p>
+          <input
+            type="email"
+            placeholder="Email"
+            aria-label="Email for newsletter subscription"
+          />
+          <button type="submit">SUBSCRIBE</button>
         </div>
-        <div class="footer-links">
-            <a href="#">Home</a>
-            <a href="#">Audi - R8</a>
-            <a href="#">Ford - Mustang</a>
-            <a href="#">Porsche 911 - GT3</a>
-            <a href="#">Contact</a>
-        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Audi - R8</a>
+        <a href="#">Ford - Mustang</a>
+        <a href="#">Porsche 911 - GT3</a>
+        <a href="#">Contact</a>
+      </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>

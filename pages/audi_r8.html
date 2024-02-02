@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Audi R8 </title>
+    <title>Audi R8</title>
     <link rel="stylesheet" href="../style/style.css" />
     <link
       rel="stylesheet"
@@ -13,7 +13,8 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo">Home</div>
+        <div class="logo">Audi R8</div>
+        <button class="hamburger-menu">☰</button>
         <ul class="nav-links">
           <li><a href="../index.html">Home</a></li>
           <li><a href="audi_r8.html" class="active">Audi - R8</a></li>
@@ -22,6 +23,13 @@
           <li><a href="form_inscrip.html">Contact </a></li>
         </ul>
       </nav>
+      <div class="dropdown_menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="audi_r8.html" class="active">Audi - R8</a></li>
+        <li><a href="ford_mustang.html">Ford - Mustang</a></li>
+        <li><a href="porsche.html">Porsche 911 - GT3</a></li>
+        <li><a href="form_inscrip.html">Contact </a></li>
+      </div>
     </header>
 
     <div class="container">
@@ -33,19 +41,42 @@
         <div class="image-section">
           <img src="../assets/audi_photo_1.jpg" alt="Audi R8" />
           <div class="overlay">
-            <button><a href="https://www.diariomotor.com/coche/audi-r8/">Mas Detalles</a></button>
+            <button>
+              <a href="https://www.diariomotor.com/coche/audi-r8/"
+                >Mas Detalles</a
+              >
+            </button>
           </div>
         </div>
 
         <div class="features-container">
-          <div class="feature-box">
-              <img src="../assets/sedan.png" alt="Potencia Icon" class="feature-icon">
+          <ul>
+            <div class="feature-box">
+              <img
+                src="../assets/sedan.png"
+                alt="Potencia Icon"
+                class="feature-icon"
+              />
               <div class="text-content">
-                  <h3 class="feature-title">Potencia</h3>
-                  <p class="feature-description">570 - 620 CV</p>
+                <h3 class="feature-title">Potencia</h3>
+                <p class="feature-description">570 - 620 CV</p>
               </div>
-          </div>
-      </div>
+            </div>
+          </ul>
+          <ul>
+            <div class="feature-box">
+              <img
+                src="../assets/sedan.png"
+                alt="Potencia Icon"
+                class="feature-icon"
+              />
+              <div class="text-content">
+                <h3 class="feature-title">Consumo</h3>
+                <p class="feature-description">12.6 - 12.9 1/100km</p>
+              </div>
+            </div>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -69,5 +100,6 @@
         <a href="#">Contact</a>
       </div>
     </footer>
+    <script src="../js/script.js"></script>
   </body>
 </html>

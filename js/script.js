@@ -1,8 +1,14 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const hamburger = document.querySelector('.hamburger-menu');
-    const navLinks = document.querySelector('.nav-links');
+const dropDrownMenu = document.querySelector('.dropdown_menu');
+const hamburgerMenu = document.querySelector('.hamburger-menu');
 
-    hamburger.addEventListener('click', function() {
-      navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  hamburgerMenu.addEventListener('click', function() {
+    dropDrownMenu.classList.toggle('open');
+      
     });
   });
+
+
+
